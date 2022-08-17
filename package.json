@@ -1,0 +1,23 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "lerna run start --scope=@dashboard/ssp",
+    "start:dsp": "lerna run start --scope=dashboard-dps",
+    "start:ssp": "lerna run start --scope=@dashboard/ssp",
+    "test": "lerna run test",
+    "test:components": "lerna run test --scope=@dashboard/common-components",
+    "test:ssp": "lerna run test --scope=@dashboard/ssp",
+    "new-version": "lerna version --conventional-commits ---yes",
+    "diff": "lerna diff",
+    "changelog": "lerna-changelog"
+  },
+  "devDependencies": {
+    "craco": "^0.0.3",
+    "lerna": "^5.4.2",
+    "nx": "^14.5.6"
+  }
+}
