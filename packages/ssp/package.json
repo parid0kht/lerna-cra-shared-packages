@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@dashboard/common-components": "^1.0.1",
-    "@dashboard/common-types": "^1.0.1",
     "@dashboard/common-utils": "^1.0.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
