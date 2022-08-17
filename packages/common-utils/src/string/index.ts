@@ -1,1 +1,1 @@
-export * as stringUtil from "../date/string";
+export * from "./string";

@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import { stringUtil, dateUtil } from "@dashboard/common-utils";
 import { CommonTypes } from "@dashboard/common-types";
 import { Button, Header, Footer } from "@dashboard/common-components";
+import { stringUtil, dateUtil } from "@dashboard/common-utils";
 
 function App() {
   console.log(stringUtil.shorten("Paridokht"));

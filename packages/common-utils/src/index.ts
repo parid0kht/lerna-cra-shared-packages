@@ -1,2 +1,2 @@
-export { stringUtil } from "./string";
-export { dateUtil } from "./date";
+export * as dateUtil from "./date";
+export * as stringUtil from "./string";

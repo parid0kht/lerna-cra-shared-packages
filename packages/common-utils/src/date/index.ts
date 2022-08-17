@@ -1,3 +1,1 @@
-import * as dateUtil from "./date";
-
-export { dateUtil };
+export * from "./date";
