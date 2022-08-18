@@ -23,7 +23,7 @@ yarn start
 3. Create a new component in common-component package,
 
 ```
-cd packages/common-component
+cd packages/common-components
 npx generate-react-cli component NewComponentName
 ```
 
