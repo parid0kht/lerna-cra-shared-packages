@@ -27,7 +27,7 @@ cd packages/common-component
 npx generate-react-cli component NewComponentName
 ```
 
-4. Add package to another package
+4. Add a package(source-package) to another package(destination-package)
 
 ```
 lerna add source-package --scope=destination-package
