@@ -1,10 +1,9 @@
 {
-  "name": "@dashboard/ssp",
-  "version": "1.0.1",
+  "name": "consumer-app",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@dashboard/common-components": "^1.0.1",
-    "@dashboard/common-types": "^0.0.1",
     "@dashboard/common-utils": "^1.0.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
@@ -13,14 +12,17 @@
     "@types/node": "^16.11.49",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
     "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "craco  start",
-    "build": "craco  build",
-    "test": "craco test",
-    "eject": "craco  eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
