@@ -5,12 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.2](https://gitlab.adjoe.zone/adjoe/frontend/lernajs/compare/v1.0.1...v1.0.2) (2022-08-18)
 
-**Note:** Version bump only for package @dashboard/common-utils
-
-
-
-
-
-## 1.0.1 (2022-08-17)
-
-**Note:** Version bump only for package @dashboard/common-utils
+**Note:** Version bump only for package @dashboard/common-types

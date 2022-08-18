@@ -1,10 +1,10 @@
 {
   "name": "consumer-app",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "private": true,
   "dependencies": {
-    "@dashboard/common-components": "^1.0.1",
-    "@dashboard/common-utils": "^1.0.1",
+    "@dashboard/common-components": "^1.0.2",
+    "@dashboard/common-utils": "^1.0.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",

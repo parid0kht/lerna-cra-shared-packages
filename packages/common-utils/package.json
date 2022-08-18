@@ -1,6 +1,6 @@
 {
   "name": "@dashboard/common-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -24,6 +24,6 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "@dashboard/common-types": "^0.0.1"
+    "@dashboard/common-types": "^1.0.2"
   }
 }
