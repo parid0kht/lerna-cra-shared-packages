@@ -1,4 +1,5 @@
 ### How to use
+0. You need to install `lerna` globally or use the `npx` and update the scripts in the `package.json` of the root.
 
 1. Install packages and dependencies
 
