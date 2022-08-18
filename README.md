@@ -32,3 +32,11 @@ npx generate-react-cli component NewComponentName
 ```
 lerna add source-package --scope=destination-package
 ```
+
+5. generating a new version, in the root
+
+```
+yarn new-version
+```
+
+there only would be a new version when there were changes to any of the packages.
