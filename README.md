@@ -14,42 +14,48 @@ There is a template folder inside common-components which can be used to create 
 
 
 ### How to use
-0. You need to install `lerna` globally or use the `npx` and update the scripts in the `package.json` of the root.
-
-1. Install packages and dependencies
-
+0. in the root 
 ```
-yarn bootstrap
+npx lerna bootstrap
 ```
 
-2. Start Project(consumer-app)
+1. in the `packages/common-utils` 
+```
+yarn run rollup
+```
 
-in the root of project
+2. in the `packages/common-components` 
+```
+yarn run rollup
+```
+
+3. in the `packages/consumer-app`
 
 ```
 yarn start
 ```
 
-in the `packages/consumer-app`
+or
 
+in the root
 ```
-yarn start
+npx lerna run start --scope=consumer-app
 ```
 
-3. Create a new component in common-component package,
+4. Create a new component in common-component package,
 
 ```
 cd packages/common-components
 npx generate-react-cli component NewComponentName
 ```
 
-4. Add a package(source-package) to another package(destination-package)
+5. Add a package(source-package) to another package(destination-package)
 
 ```
 lerna add source-package --scope=destination-package
 ```
 
-5. generating a new version, in the root
+6. generating a new version, in the root
 
 ```
 yarn new-version
@@ -57,7 +63,7 @@ yarn new-version
 
 there only would be a new version when there were changes to any of the packages.
 
-6. test at the root
+7. test at the root
 
 all
 ```
